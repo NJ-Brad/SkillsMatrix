@@ -12,7 +12,7 @@
         public string Skill { get; set; }
         public string Person { get; set; }
         public string SkillLevel { get; set; }
-        public bool InterestedInImproving { get; set; } = false;
+        public bool InterestedInDeveloping { get; set; } = false;
     }
 }
 //         [YamlIgnore]

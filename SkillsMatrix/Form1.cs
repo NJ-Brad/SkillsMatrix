@@ -156,7 +156,7 @@ namespace SkillsMatrix
             if (item != null)
             {
                 item.SkillLevel = GetSkillLevel();
-                item.InterestedInImproving = checkBox1.Checked;
+                item.InterestedInDeveloping = checkBox1.Checked;
             }
             else
             {
@@ -165,7 +165,7 @@ namespace SkillsMatrix
                     Skill = task,
                     Person = party,
                     SkillLevel = GetSkillLevel(),
-                    InterestedInImproving = checkBox1.Checked
+                    InterestedInDeveloping = checkBox1.Checked
                 });
             }
         }
@@ -231,7 +231,7 @@ namespace SkillsMatrix
                 int founcAt = listBox3.FindStringExact(item.SkillLevel);
                 listBox3.SelectedIndex = founcAt;
 
-                checkBox1.Checked = item.InterestedInImproving;
+                checkBox1.Checked = item.InterestedInDeveloping;
             }
 
             ShowLevelDescription();
@@ -353,7 +353,7 @@ namespace SkillsMatrix
                 if (item != null)
                 {
                     skillLevelString.Append(item.SkillLevel);
-                    if (item.InterestedInImproving)
+                    if (item.InterestedInDeveloping)
                     {
                         skillLevelString.Append(" +");
                     }

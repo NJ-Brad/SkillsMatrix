@@ -38,6 +38,7 @@
             listBox2 = new ListBox();
             tabControl1 = new TabControl();
             tabPage1 = new TabPage();
+            textBox1 = new TextBox();
             checkBox1 = new CheckBox();
             listBox3 = new ListBox();
             label2 = new Label();
@@ -60,7 +61,6 @@
             toolStripSeparator2 = new ToolStripSeparator();
             exitToolStripMenuItem = new ToolStripMenuItem();
             label1 = new Label();
-            textBox1 = new TextBox();
             tabControl1.SuspendLayout();
             tabPage1.SuspendLayout();
             tabPage2.SuspendLayout();
@@ -182,14 +182,24 @@
             tabPage1.Text = "Edit";
             tabPage1.UseVisualStyleBackColor = true;
             // 
+            // textBox1
+            // 
+            textBox1.Location = new Point(335, 177);
+            textBox1.Multiline = true;
+            textBox1.Name = "textBox1";
+            textBox1.ReadOnly = true;
+            textBox1.ScrollBars = ScrollBars.Both;
+            textBox1.Size = new Size(534, 142);
+            textBox1.TabIndex = 12;
+            // 
             // checkBox1
             // 
             checkBox1.AutoSize = true;
             checkBox1.Location = new Point(529, 42);
             checkBox1.Name = "checkBox1";
-            checkBox1.Size = new Size(182, 25);
+            checkBox1.Size = new Size(196, 25);
             checkBox1.TabIndex = 11;
-            checkBox1.Text = "Interested in Elevating";
+            checkBox1.Text = "Interested in developing";
             checkBox1.UseVisualStyleBackColor = true;
             checkBox1.CheckedChanged += checkBox1_CheckedChanged;
             // 
@@ -387,16 +397,6 @@
             label1.Size = new Size(155, 21);
             label1.TabIndex = 15;
             label1.Text = "A few skill categories";
-            // 
-            // textBox1
-            // 
-            textBox1.Location = new Point(335, 177);
-            textBox1.Multiline = true;
-            textBox1.Name = "textBox1";
-            textBox1.ReadOnly = true;
-            textBox1.ScrollBars = ScrollBars.Both;
-            textBox1.Size = new Size(534, 142);
-            textBox1.TabIndex = 12;
             // 
             // Form1
             // 
